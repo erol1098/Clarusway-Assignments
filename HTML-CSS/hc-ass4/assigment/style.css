@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.1rem solid whitesmoke;
+  border-collapse: collapse;
+  overflow: hidden;
+  font-size: 1rem;
+}
+.container {
+  background-color: beige;
+  border: none;
+}
+.row {
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  border: none;
+}
+.nav {
+  display: flex;
+  height: 3rem;
+}
+.logo {
+  background-color: cadetblue;
+  padding: 1rem;
+}
+.menu {
+  background-color: burlywood;
+  padding: 1rem;
+}
+.banner {
+  background-color: coral;
+  padding: 4rem;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-4,
+.section-5,
+.section-6 {
+  background-color: darkkhaki;
+  padding: 1rem;
+}
+.footer {
+  background-color: hotpink;
+  padding: 2rem;
+}
+.section-1,
+.section-2,
+.section-3 {
+  background-color: dodgerblue;
+
+  padding: calc((100vh - 20.8rem) / 2) 0;
+}
